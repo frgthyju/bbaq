@@ -1,7 +1,7 @@
 <?php
     define("APP_ROOT",dirname(__FILE__));
 //    require_once APP_ROOT."/class/SessionManager.php";
-//    session_start();                                     //php自带session
+    session_start();                                     //php自带session
 //    new SessionManager();                                   //使用redis记录session
 //
     //未登录或未操作时常超过1小时情况下跳转到登录界面

@@ -1,6 +1,6 @@
 <?php
     //require_once "backend/class/SessionManager.php";
-//    session_start();                                     //php自带session
+     session_start();                                     //php自带session
 
     //new SessionManager();                                   //使用redis记录session
 
