@@ -1,1 +1,1 @@
-var path = "http://10.152.61.225:8090/backend" ;
+var path = "http://hello.fun.com:8090/backend" ;
