@@ -1,5 +1,5 @@
 <?php
-    require_once 'backend/check_login.php';
+//    require_once 'backend/check_login.php';
 
     $info=<<<ttt
 <!DOCTYPE html>

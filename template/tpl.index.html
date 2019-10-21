@@ -1,10 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    {include file="index/tpl.head.html"}
 </head>
-<body>
-hello index
+<body class="page-body lockscreen-page">
+<div class="login-container">
+    <div class="row">
+        <div class="col-sm-7">
+            <form role="form" id="lockscreen" class="lockcreen-form fade-in-effect">
+                <div class="user-thumb">
+                    <a href="#">
+                        <img src="/assets/images/hyj.jpg" class="img-responsive img-circle" />
+                    </a>
+                </div>
+
+                <div class="form-group">
+                    <h3>欢迎登录用户管理系统</h3>
+                    <p>请输入您的用户名和密码.</p>
+                    <div class="input-group">
+                        <input type="username" class="form-control input-dark" name="username" id="username" placeholder="Username" />
+                        <span class="input-group-btn">
+								<div style="display: none" class="btn btn-primary"class="btn btn-primary">Log In</div>
+							</span>
+                    </div>
+                    <div class="input-group">
+                        <input type="password" class="form-control input-dark" name="passwd" id="passwd" placeholder="Password" />
+                        <span class="input-group-btn">
+								<div style="display: none" class="btn btn-primary"class="btn btn-primary">Log In</div>
+							</span>
+                    </div>
+                    <div class="input-group">
+							<span class="input-group-btn">
+								<button type="submit" id="login"  class="btn btn-primary" >Log In</button>
+							</span>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+   {include file="index/tpl.scripts.html"}
 </body>
 </html>
+
