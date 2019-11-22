@@ -1,5 +1,4 @@
 <?php
-
     //查询所有数据
     require_once "../../backend/class/DBTool.php";
     require_once "../../backend/check_login.php";
